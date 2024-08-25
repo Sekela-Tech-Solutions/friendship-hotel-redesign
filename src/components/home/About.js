@@ -14,12 +14,16 @@ export default function About() {
               </h6>
               <h1 className="mb-4">
                 Welcome to{" "}
-                <span className="text-primary text-uppercase">Hotelier</span>
+                <span className="text-primary text-uppercase ">Friendship International Hotel</span>
               </h1>
               <p className="mb-4">
-                Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
-                Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit,
-                sed stet lorem sit clita duo justo magna dolore erat amet
+              Located in the vibrant Bole district, our hotel offers 
+              modern amenities and personalized service to ensure a memorable stay.
+              Enjoy our well-appointed rooms, fitness center, and complimentary breakfast.
+
+
+
+       
               </p>
               <div className="row g-3 pb-4">
                 {about.map((item, key) => (
@@ -46,7 +50,7 @@ export default function About() {
                   <img
                     className="img-fluid rounded w-75 wow zoomIn"
                     data-wow-delay="0.1s"
-                    src="/assets/img/about-1.jpg"
+                    src="/assets/img/new-about1.jpg"
                     style={{ marginTop: "25%" }}
                   />
                 </div>
@@ -54,21 +58,21 @@ export default function About() {
                   <img
                     className="img-fluid rounded w-100 wow zoomIn"
                     data-wow-delay="0.3s"
-                    src="/assets/img/about-2.jpg"
+                    src="/assets/img/new-about2.jpeg"
                   />
                 </div>
                 <div className="col-6 text-end">
                   <img
                     className="img-fluid rounded w-50 wow zoomIn"
                     data-wow-delay="0.5s"
-                    src="/assets/img/about-3.jpg"
+                    src="/assets/img/new-about3.jpg"
                   />
                 </div>
                 <div className="col-6 text-start">
                   <img
                     className="img-fluid rounded w-75 wow zoomIn"
                     data-wow-delay="0.7s"
-                    src="/assets/img/about-4.jpg"
+                    src="/assets/img/new-about4.png"
                   />
                 </div>
               </div>

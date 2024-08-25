@@ -15,11 +15,14 @@ export default function Footer() {
             <div className="col-md-6 col-lg-4">
               <div className="bg-primary rounded p-4">
                 <Link to="/">
-                  <h1 className="text-white text-uppercase mb-3">Hotelier</h1>
+                  <h1 className="text-white text-uppercase mb-3">Friendship</h1>
                 </Link>
                 <p className="text-white mb-0">
-                  Build a professional website for your hotel business and grab
-                  the attention of new visitors upon your site’s launch.
+                Experience the essence of Ethiopian hospitality, where every stay
+                 feels like home, and every guest is a cherished friend.
+
+
+         
                 </p>
               </div>
             </div>
@@ -48,9 +51,9 @@ export default function Footer() {
                       {section.header}
                     </h6>
                     {section.UnitItem.map((item, itemIndex) => (
-                      <a className="btn btn-link" href="" key={itemIndex}>
+                      <p className="btn btn-link" href="" key={itemIndex}>
                         {item.name}
-                      </a>
+                      </p>
                     ))}
                   </div>
                 ))}
