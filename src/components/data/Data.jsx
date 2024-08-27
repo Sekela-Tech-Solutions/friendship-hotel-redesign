@@ -201,7 +201,7 @@ export const footerItem = [
     UnitItem: [
       {
         name: "Rooms",
-        link: "/services/rooms",
+        link: "/rooms",
       },
       {
         name: "Food & Restaurant",
