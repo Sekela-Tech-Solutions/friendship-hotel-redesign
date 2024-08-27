@@ -50,7 +50,7 @@ export const navList = [
 export const socialIcons = [
   {
     icon: <i className="fab fa-facebook-f"></i>,
-    Link:'https://www.facebook.com/FriendshipInternationalHotel',
+    Link: 'https://www.facebook.com/FriendshipInternationalHotel',
   },
   {
     icon: <i className="fab fa-twitter"></i>,
@@ -192,7 +192,7 @@ export const footerItem = [
         name: "Terms & Condition",
         link: "/terms-and-conditions",
       },
-  
+
     ],
   },
   {
@@ -287,69 +287,57 @@ export const testimonial = [
 
 export const roomItems = [
   {
-    img: "../assets/img/room-1.jpg",
+    img: "../assets/img/royal_suit_3.jpg",
     price: "$110/night",
-    name: "Junior Suit",
-    star: [
-      <small class="fa fa-star text-primary"></small>,
-      <small class="fa fa-star text-primary"></small>,
-      <small class="fa fa-star text-primary"></small>,
-      <small class="fa fa-star text-primary"></small>,
-      <small class="fa fa-star text-primary"></small>,
-    ],
+    name: "Royal Suite",
+    star: 5,
     description:
-      "Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.",
-    yellowbtn: "View Detail",
-    darkbtn: "book now",
+      "Our Royal Suite represents the best that our hotel has to offer. Guests will enjoy 62 sq. m of spacious luxury in Addis Ababa that is designed to please.",
+    beds: 5,
+    wifi: true,
+    area: 62,
   },
-
   {
-    img: "../assets/img/room-2.jpg",
+    img: "../assets/img/deluxe_1.JPG",
     price: "$110/night",
-    name: "Executive Suite",
-    star: [
-      <small class="fa fa-star text-primary"></small>,
-      <small class="fa fa-star text-primary"></small>,
-      <small class="fa fa-star text-primary"></small>,
-      <small class="fa fa-star text-primary"></small>,
-      <small class="fa fa-star text-primary"></small>,
-    ],
+    name: "Deluxe",
+    star: 4,
     description:
-      "Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.",
-    yellowbtn: "View Detail",
-    darkbtn: "book now",
+      "Our deluxe room gives our guests more comfort and more amenities to enjoy. These rooms have 38 sq. m of upgraded living space.",
+    wifi: true,
+    area: 38,
+    beds: 2,
   },
   {
-    img: "../assets/img/room-3.jpg",
+    img: "../assets/img/standard_king_1.JPG",
     price: "$110/night",
-    name: "Super Deluxe",
-    star: [
-      <small class="fa fa-star text-primary"></small>,
-      <small class="fa fa-star text-primary"></small>,
-      <small class="fa fa-star text-primary"></small>,
-      <small class="fa fa-star text-primary"></small>,
-      <small class="fa fa-star text-primary"></small>,
-    ],
+    name: "Standard King",
+    star: 3,
     description:
-      "Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.",
-    yellowbtn: "View Detail",
-    darkbtn: "book now",
-  },
-];
-
-export const facility = [
-  {
-    icon: <i class="fa fa-bed text-primary me-2"></i>,
-    quantity: 3,
-    facility: "bed",
+      "Appropriately titled, this room is made for a king. The larger space allows guests to easily make their stay at our hotel like a second home.",
+    wifi: true,
+    area: 38,
+    beds: 1,
   },
   {
-    icon: <i class="fa fa-bath text-primary me-2"></i>,
-    quantity: 2,
-    facility: "bath",
-  },
-  {
-    icon: <i class="fa fa-wifi text-primary me-2"></i>,
-    facility: "Wifi",
+    img: "../assets/img/standard_queen_1.JPG",
+    price: "$110/night",
+    name: "Standard Queen",
+    star: 3,
+    description:
+      "At Friendship Hotel we believe everyone should be treated like royalty and this room represents how we feel about the level of service all our guests should receive.",
+    wifi: true,
+    area: 38,
+    beds: 1,
+  }, {
+    img: "../assets/img/standard_twin_1.JPG",
+    price: "$110/night",
+    name: "Standard Twin",
+    star: 3,
+    description:
+      "Sometimes two beds are better than one. For duo travelers that would prefer their own space to lay down their head, this room is perfect.",
+    wifi: true,
+    area: 35,
+    beds: 2,
   },
 ];
