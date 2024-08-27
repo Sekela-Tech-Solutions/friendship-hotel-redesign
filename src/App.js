@@ -16,6 +16,7 @@ import {
   Services,
   Team,
   Testimonial,
+  TermAndCondition,
 } from "./pages/index";
 import Footer from "./components/common/Footer";
 export default function App() {
@@ -34,6 +35,7 @@ export default function App() {
             <Route path="/*" element={<PageNotFound />} />
             <Route path="/rooms" element={<Room />} />
             <Route path="/services" element={<Services />} />
+            <Route path="/terms-and-conditions" element={<TermAndCondition />} />
           </Routes>
           <Footer />
         </Router>

@@ -15,7 +15,7 @@ export default function Footer() {
             <div className="col-md-6 col-lg-4">
               <div className="bg-primary rounded p-4">
                 <Link to="/">
-                  <h1 className="text-white text-uppercase mb-3">Hotelier</h1>
+                  <h1 className="text-white text-uppercase mb-3">FriendShip Hotel</h1>
                 </Link>
                 <p className="text-white mb-0">
                   Build a professional website for your hotel business and grab
@@ -34,7 +34,11 @@ export default function Footer() {
               ))}
               <div className="d-flex pt-2">
                 {socialIcons.slice(0, 4).map((val, index) => (
-                  <a className="btn btn-outline-light btn-social" href="">
+                  <a
+                    className="btn btn-outline-light btn-social"
+                    href={val.Link} // Assuming there's a link property in socialIcons
+                    key={index}
+                  >
                     {val.icon}
                   </a>
                 ))}
@@ -48,9 +52,13 @@ export default function Footer() {
                       {section.header}
                     </h6>
                     {section.UnitItem.map((item, itemIndex) => (
-                      <a className="btn btn-link" href="" key={itemIndex}>
+                      <Link
+                        className="btn btn-link"
+                        to={item.link} // Use the link property from footerItem
+                        key={itemIndex}
+                      >
                         {item.name}
-                      </a>
+                      </Link>
                     ))}
                   </div>
                 ))}

@@ -50,6 +50,7 @@ export const navList = [
 export const socialIcons = [
   {
     icon: <i className="fab fa-facebook-f"></i>,
+    Link:'https://www.facebook.com/FriendshipInternationalHotel',
   },
   {
     icon: <i className="fab fa-twitter"></i>,
@@ -163,18 +164,23 @@ export const footerItem = [
     UnitItem: [
       {
         name: "About Us",
+        link: "/about-us",
       },
       {
         name: "Contact Us",
+        link: "/contact",
       },
       {
         name: "Privacy Policy",
+        link: "/privacy-policy",
       },
       {
         name: "Terms & Condition",
+        link: "/terms-and-conditions",
       },
       {
         name: "Support",
+        link: "/support",
       },
     ],
   },
@@ -183,36 +189,38 @@ export const footerItem = [
     header: "Services",
     UnitItem: [
       {
+        name: "Rooms",
+        link: "/services/rooms",
+      },
+      {
         name: "Food & Restaurant",
+        link: "/services/food-restaurant",
       },
       {
-        name: "Spa & Fitness",
+        name: "Events & Meeting",
+        link: "/services/events-meeting",
       },
       {
-        name: "Sports & Gaming",
-      },
-      {
-        name: "Event & Party",
-      },
-      {
-        name: "GYM & Yoga",
+        name: "Spa, GYM & Internet",
+        link: "/services/spa-gym-internet",
       },
     ],
   },
 ];
 
+
 export const footerContact = [
   {
     icon: <i className="fa fa-map-marker-alt me-3"></i>,
-    name: "123 Street, New York, USA",
+    name: "Africa Avenue, Opposite to Alem bldg. about 200 meters inside. Addis Ababa, Ethiopia",
   },
   {
     icon: <i className="fa fa-phone-alt me-3"></i>,
-    name: "+012 345 67890",
+    name: "+251-11-6670202",
   },
   {
     icon: <i className="fa fa-envelope me-3"></i>,
-    name: "info@example.com",
+    name: "marketing@friendshiphotel.com.et",
   },
 ];
 
@@ -224,8 +232,8 @@ export const contact = [
   },
   {
     icon: <i class="fa fa-envelope-open text-primary me-2"></i>,
-    title: "Technical",
-    email: "tech@example.com",
+    title: "Marketing",
+    email: "marketing@friendshiphotel.com.et",
   },
   {
     icon: <i class="fa fa-envelope-open text-primary me-2"></i>,
