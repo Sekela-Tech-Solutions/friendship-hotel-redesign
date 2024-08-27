@@ -18,8 +18,8 @@ export default function Footer() {
                   <h1 className="text-white text-uppercase mb-3">FriendShip</h1>
                 </Link>
                 <p className="text-white mb-0">
-                  Build a professional website for your hotel business and grab
-                  the attention of new visitors upon your site’s launch.
+                Experience the essence of Ethiopian hospitality, where every stay
+                 feels like home, and every guest is a cherished friend.
                 </p>
               </div>
             </div>
