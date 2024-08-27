@@ -85,6 +85,23 @@
     text-transform: uppercase;
     outline: none;
 }
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 30%;
+    position: relative;
+    height: 0;
+}
+
+
+.map-responsive iframe{
+    left:0;
+    top:0;
+    border:0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    
+}
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
@@ -346,7 +363,7 @@
 
 /*** Testimonial ***/
 .testimonial {
-    background: linear-gradient(rgba(15, 23, 43, .7), rgba(15, 23, 43, .7)), url(../../public/assets/img/carousel-2.jpg);
+    background: linear-gradient(rgba(15, 23, 43, .7), rgba(15, 23, 43, .7)), url(../../public/assets/img/room1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;

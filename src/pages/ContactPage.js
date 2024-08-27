@@ -50,9 +50,9 @@ export default function Contact() {
             </div>
             <div className="col-md-6 wow fadeIn" data-wow-delay="0.1s">
               <iframe
-                className="position-relative rounded w-100 h-100"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d133489.1432859406!2d38.71770929046606!3d8.980846586071708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b84fdc25a1763%3A0xc8e593db602f9fd4!2sFriendship+International+Hotel!5e0!3m2!1sen!2set!4v1707652781042!5m2!1sen!2set"
-                frameBorder="0"
+                class="position-relative rounded w-100 h-100"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.762129967661!2d38.78219397331102!3d8.994022491065943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b84fdc25a1763%3A0xc8e593db602f9fd4!2sFriendship%20International%20Hotel!5e0!3m2!1sen!2set!4v1724597545162!5m2!1sen!2set"
+                frameborder="0"
                 style={{ minHeight: "350px", border: "0" }}
                 allowFullScreen
                 aria-hidden="false"

@@ -103,7 +103,7 @@ export const about = [
 export const services = [
   {
     icon: <i class="fa fa-hotel fa-2x text-primary"></i>,
-    name: "Rooms & Appartment",
+    name: "24 hour room service",
     discription: "Contrary to popular belief, ipsum is not simply random.",
   },
   {
@@ -131,6 +131,21 @@ export const services = [
   {
     icon: <i class="fa fa-dumbbell fa-2x text-primary"></i>,
     name: "GYM & Yoga",
+    discription: "Contrary to popular belief, ipsum is not simply random.",
+  },
+  {
+    icon: <i class="fa fa-parking fa-2x text-primary"></i>,
+    name: "Adequate parking",
+    discription: "Contrary to popular belief, ipsum is not simply random.",
+  },
+  {
+    icon: <i class="fa fa-tshirt fa-2x text-primary"></i>,
+    name: "Laundry and dry-cleaning",
+    discription: "Contrary to popular belief, ipsum is not simply random.",
+  },
+  {
+    icon: <i class="fa fa-gift fa-2x text-primary"></i>,
+    name: "Gift shop",
     discription: "Contrary to popular belief, ipsum is not simply random.",
   },
 ];
@@ -164,24 +179,20 @@ export const footerItem = [
     UnitItem: [
       {
         name: "About Us",
-        link: "/about-us",
+        link: "/about",
       },
       {
         name: "Contact Us",
         link: "/contact",
       },
       {
-        name: "Privacy Policy",
-        link: "/privacy-policy",
+        name: "Newsletter",
       },
       {
         name: "Terms & Condition",
         link: "/terms-and-conditions",
       },
-      {
-        name: "Support",
-        link: "/support",
-      },
+  
     ],
   },
   {
@@ -212,7 +223,7 @@ export const footerItem = [
 export const footerContact = [
   {
     icon: <i className="fa fa-map-marker-alt me-3"></i>,
-    name: "Africa Avenue, Opposite to Alem bldg. about 200 meters inside. Addis Ababa, Ethiopia",
+    name: "Africa Avenue, Bole, AA",
   },
   {
     icon: <i className="fa fa-phone-alt me-3"></i>,
@@ -220,7 +231,7 @@ export const footerContact = [
   },
   {
     icon: <i className="fa fa-envelope me-3"></i>,
-    name: "marketing@friendshiphotel.com.et",
+    name: "friendshiphotel.com.et",
   },
 ];
 
@@ -244,8 +255,8 @@ export const contact = [
 export const testimonial = [
   {
     description:
-      "Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd et erat magna eos",
-    name: "Client Name",
+      "Friendship is such a beautiful and neat hotel. It has mindblowingly amazing rooms and the service is of an international standard.",
+    name: "Nurhusen Arefayne",
     profession: "Profession",
     icon: (
       <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
@@ -254,8 +265,8 @@ export const testimonial = [
   },
   {
     description:
-      "Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd et erat magna eos",
-    name: "Client Name",
+      "I spent quite sometime at the Friendship Hotel. It was a pleasant and beautiful stay. The staff is extremely polite, courteous and warm. The title of the hotel definitely extends to the environment and staff. They provided me with a driver who took me all over Addis Ababa with historical information. I was pleased with the cleanliness of the rooms, the food was splendid. I will definitely spend time at this hitel again",
+    name: "Andrew S",
     profession: "Profession",
     icon: (
       <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
@@ -264,8 +275,8 @@ export const testimonial = [
   },
   {
     description:
-      "Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd et erat magna eos",
-    name: "Client Name",
+      "The Friendship International Hotel is a luxurious accommodation that caters to both business and leisure travelers. With spacious and well-appointed rooms, attentive staff, and a range of exceptional amenities, it offers a delightful stay experience.",
+    name: "Ewnetu Bekele",
     profession: "Profession",
     icon: (
       <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>

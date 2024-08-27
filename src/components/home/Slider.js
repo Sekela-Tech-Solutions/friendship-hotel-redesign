@@ -10,7 +10,7 @@ export default function Sliders() {
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 2,
+    slidesToShow: 1,
     slidesToScroll: 1,
   };
   return (
@@ -36,7 +36,14 @@ export default function Sliders() {
                     />
                     <div className="ps-3">
                       <h6 className="fw-bold mb-1">{item.name}</h6>
-                      <small>{item.profession}</small>
+                      <div>
+  <i className="fa fa-star fa-lg" style={{ color: 'orange' }}></i>
+  <i className="fa fa-star fa-lg" style={{ color: 'orange' }}></i>
+  <i className="fa fa-star fa-lg" style={{ color: 'orange' }}></i>
+  <i className="fa fa-star fa-lg" style={{ color: 'orange' }}></i>
+  <i className="fa fa-star fa-lg" style={{ color: 'orange' }}></i>
+</div>
+
                     </div>
                   </div>
                   {item.icon}
