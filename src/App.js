@@ -1,24 +1,25 @@
 import React from "react";
-import "./css/style.css";
-import "./css/bootstrap.min.css";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import "./App.css";
+import Footer from "./components/common/Footer";
+import Header from "./components/common/Header";
 import "./css/animate.css";
 import "./css/animate.min.css";
-import "./App.css";
-import Header from "./components/common/Header";
-import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import "./css/bootstrap.min.css";
+import "./css/style.css";
+import GalleryPage from "./pages/GalleryPage";
 import {
-  Home,
-  Booking,
   AboutUs,
+  Booking,
   Contact,
+  Home,
   PageNotFound,
   Room,
   Services,
   Team,
-  Testimonial,
   TermAndCondition,
+  Testimonial,
 } from "./pages/index";
-import Footer from "./components/common/Footer";
 export default function App() {
   return (
     <>
@@ -35,7 +36,11 @@ export default function App() {
             <Route path="/*" element={<PageNotFound />} />
             <Route path="/rooms" element={<Room />} />
             <Route path="/services" element={<Services />} />
-            <Route path="/terms-and-conditions" element={<TermAndCondition />} />
+            <Route
+              path="/terms-and-conditions"
+              element={<TermAndCondition />}
+            />
+            <Route path="/gallery" element={<GalleryPage />} />
           </Routes>
           <Footer />
         </Router>
