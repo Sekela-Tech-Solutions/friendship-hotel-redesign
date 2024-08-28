@@ -43,7 +43,7 @@ export default function Rooms() {
                       >
                         {item.yellowbtn}
                       </a>
-                      <a className="btn btn-sm btn-dark rounded py-2 px-4" href="">
+                      <a className="btn btn-sm btn-dark rounded py-2 px-4" href="/booking">
                         {item.darkbtn}
                       </a>
                     </div>

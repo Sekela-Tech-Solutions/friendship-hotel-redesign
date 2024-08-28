@@ -31,13 +31,18 @@ export const navList = [
       },
       {
         id: 52,
-        path: "/team",
-        text: "Our Team",
+        path: "/contact",
+        text: "Contact",
       },
       {
         id: 53,
         path: "/testimonial",
         text: "Testimonial",
+      },
+      {
+        id: 54,
+        path: "/terms-and-conditions",
+        text: "Terms and Conditions",
       },
     ],
   },
@@ -68,20 +73,34 @@ export const socialIcons = [
 
 export const carouselData = [
   {
-    img: "../assets/img/carousel-1.jpg",
-    title: "Discover A Brand Luxurious Hotel",
-    subtitle: "luxury living",
+    img: "../assets/img/meetingroom.jpg",
+    title: "Meet your Team Here!",
+    subtitle: "Meeting Room",
     btn1: "Our Room",
+    link1: "/rooms", // Link for "Our Room" button
     btn2: "Book Room",
+    link2: "/booking", // Link for "Book Room" button
   },
   {
-    img: "../assets/img/carousel-2.jpg",
-    title: "Discover A Brand Luxurious Hotel",
-    subtitle: "luxury living",
+    img: "../assets/img/gymroom.jpg",
+    title: "Discover A Brand Luxurious Gym",
+    subtitle: "GYM Room",
     btn1: "Our Room",
+    link1: "/rooms", // Link for "Our Room" button
     btn2: "Book Room",
+    link2: "/booking", // Link for "Book Room" button
+  },
+  {
+    img: "../assets/img/r.jpg",
+    title: "Discover A Brand Luxurious Hotel",
+    subtitle: "Bed Room",
+    btn1: "Our Room",
+    link1: "/rooms", // Link for "Our Room" button
+    btn2: "Book Room",
+    link2: "/booking", // Link for "Book Room" button
   },
 ];
+
 export const about = [
   {
     icon: <i class="fa fa-hotel fa-2x text-primary mb-2"></i>,

@@ -57,7 +57,8 @@ export default function Book() {
                 </div>
               </div>
               <div className="col-md-2">
-                <button className="btn btn-primary w-100">Book</button>
+                <a href="/booking"><button className="btn btn-primary w-100">Book</button></a>
+                
               </div>
             </div>
           </div>
